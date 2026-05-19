@@ -23,7 +23,7 @@ Unlike standard library wrappers, this engine manually reconstructs the core mat
 * **Custom Loss Normalization:** Rigorously handles regression residuals using linear loss functions.
 
 ### 3. Performance Benchmarking
-The manual model successfully converged at **M=1000 estimators**, achieving **~98% performance parity** with Scikit-Learn’s optimized Cython implementation ($R^2$: 0.44 vs 0.45). This confirms the custom engine matches industry standards while providing full transparency.
+The manual model successfully converged at **M=1000 estimators**, achieving **~98% performance parity** with Scikit-Learn’s optimized Cython implementation ($R^2$: 0.44 vs 0.45) [depth of tree=1 , for testing hence r2 score can be further optimised by increasing depth and tuning]. This confirms the custom engine matches industry standards while providing full transparency.
 
 ---
 
